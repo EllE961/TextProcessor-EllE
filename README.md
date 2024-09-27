@@ -7,9 +7,6 @@
 - **Paraphrase Text:** Generate multiple paraphrased versions of your input text.
 - **Summarize Text:** Create concise summaries of longer paragraphs.
 - **Copy to Clipboard:** Easily copy generated outputs.
-- **Save Output:** Save your results to a text file.
-- **Clear Fields:** Reset input and output fields for new entries.
-- **Loading Indicator:** Visual feedback during processing.
 
 ## Installation
 
