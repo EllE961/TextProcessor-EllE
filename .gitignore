@@ -3,47 +3,101 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
+# Virtual environment directories
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+.venv/
+
+# Distribution / packaging
+.Python
 build/
 dist/
 *.egg-info/
 *.egg
-*.wheel
 *.manifest
+*.spec
+*.log
 
-# PyInstaller
-#  Usually contains the compiled output and build files
+# PyInstaller output
 /build/
 /dist/
 *.spec
+*.exe
+*.dll
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Ignore large data or binary files (Add extensions you want to exclude)
+*.bin
+*.bak
+*.exe
+*.zip
+*.tar.gz
+*.rar
+*.7z
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-*.cover
-.hypothesis/
+# Python specific ignore rules
+*.pyc
+*.pyo
+*.pyd
 
-# Pytest
-.cache/
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
 
-# Environments
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Ignore VSCode or other editor settings files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore any OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore pipenv and poetry lock files (if used)
+Pipfile.lock
+poetry.lock
+
+# Ignore git-lfs lock files
+.gitattributes.lock
+.git-lfs/
+
+# Ignore node_modules and package-lock.json if you're using npm
+node_modules/
+package-lock.json
+
+# Ignore large file types you may work with
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+
+# Ignore test or data files you don't want to track
+*.csv
+*.json
+*.xml
+*.xlsx
+*.docx
+
+# Ignore secrets and credentials
 .env
-.venv
-ENV/
-env.bak/
-venv.bak/
+.env.*
+.secret
+
+# Ignore PyInstaller's cached output and specific modules
+# If you don't need `scipy` or other modules, remove them from your project
+/scipy/
+/torch/
+
