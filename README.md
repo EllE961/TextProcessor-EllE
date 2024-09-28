@@ -18,7 +18,8 @@
 ### Download Executable
 
 1. **Download the Executable:**
-   - Navigate to the [Releases](#) section of this repository.
+   - Navigate to the [Download the latest release](https://github.com/EllE961/TextProcessor-EllE/releases/latest)
+ section of this repository.
    - Download the latest `app.exe` file.
 
 2. **Run the Application:**
