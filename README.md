@@ -8,11 +8,13 @@
 ![transformers](https://img.shields.io/badge/transformers-4.45-d95926?style=flat-square&labelColor=0d0c0b)
 ![pytorch](https://img.shields.io/badge/pytorch-2.4-9085e9?style=flat-square&labelColor=0d0c0b)
 ![license](https://img.shields.io/badge/license-MIT-1f1d1b?style=flat-square&labelColor=0d0c0b)
+![status](https://img.shields.io/badge/status-experimental-9085e9?style=flat-square&labelColor=0d0c0b)
 
 <img src="docs/assets/hero.png" alt="the app window twice: left, three paraphrases of a 78-word paragraph about honeybees; right, three summaries of the same paragraph" width="100%">
 
 </div>
 
+Text Processor is an experiment and isn't finished: the app runs, but summaries come out garbled because the code leaves out T5's task prefix, and paraphrases mostly copy the input (see Limitations).
 This is a small desktop front end for two off-the-shelf T5 checkpoints that runs locally. You paste a paragraph,
 pick Paraphrase or Summarize, and get three candidates you can select and copy or save to a `.txt` file.
 Generation runs on a worker thread, so the window stays responsive while the model works. The screenshots above are
