@@ -101,3 +101,10 @@ package-lock.json
 /scipy/
 /torch/
 
+
+
+# Windows shortcuts
+*.lnk
+
+# README images
+!docs/assets/*.png
